@@ -1,0 +1,293 @@
+
+#header{
+    width: 100%;
+    background-color: #70ad46;
+    height: 56px;
+
+}
+#header_nav{
+   height: 56px;
+}
+#header img{
+    float: left;
+    padding-top: 10px;
+}
+#search_blank{
+    display: inline-block;
+    float: left;
+    width: 792px;
+    height: 40px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    position: relative;
+    margin: 8px;
+    margin-left: 90px;
+}
+#triangle1{
+    border-left:10px solid rgba(0,0,0,0);
+    border-bottom:10px solid #ffffff;
+    border-right:10px solid rgba(0,0,0,0);
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+#triangle2{
+    border-top:5px solid #999999;
+    border-left:5px solid rgba(0,0,0,0);
+    border-right:5px solid rgba(0,0,0,0);
+    position: absolute;
+    top: 20px;
+    left: 65px;
+}
+
+#select{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    left: 24px;
+    top:8px;
+
+}
+
+#search_blank input{
+    width: 588px;
+    height: 95%;
+    border: none;
+    position: absolute;
+    left: 80px;
+    font-size: 14px;
+    font-color:#d0d0d0;
+}
+#search_btn{
+    height: 100%;
+    width: 124px;
+    border: none;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    color: white;
+    font-size: 18px;
+    padding-left: 36px;
+    position: absolute;
+    left:672px;
+    background-color: #5b8239;
+    background-image: url("../search_icon.png");
+    background-repeat: no-repeat;
+    background-position:19px 14px;
+
+}
+
+.page-box{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.page-box .page-checked {
+
+    background-color: #ccc;
+    color: #b61d1d;
+}
+
+.page-box a{
+    display: inline-block;
+    border: 1px solid rgba(150,150,150,0.3);
+    height: 30px;
+    min-width: 30px;
+    margin: 0 10px;
+    line-height: 30px;
+
+}
+#separate{
+    float: right;
+    margin-top: 18px;
+    color: #ffffff;
+}
+
+#header_nav a{
+    float: right;
+    padding:6px 2px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+
+#condition{
+    width: 1130px;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    padding:15px 10px 19px 10px;
+    margin-top:20px;
+
+}
+#condition ul{
+    display: block;
+    margin: 5px 10px 10px 0;
+    overflow: hidden;
+}
+#condition ul li{
+    float: left;
+}
+
+#condition ul li a{
+    padding: 5px;
+}
+#condition p{
+    margin:5px 10px 10px 5px ;
+}
+#condition select{
+    margin-left: 5px;
+
+}
+#condition p input{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+#content{
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 18px;
+
+}
+#content_nav{
+    width: 1150px;
+    height: 36px;
+    border: 1px solid #cccccc;
+    background-color: #eeeeee;
+}
+.select{
+    color: #5b8239;
+}
+
+#content a{
+    height:36px;
+    line-height:36px;
+    font-size: 16px;
+    padding: 8px;
+}
+#content .ul1{
+    float:right;
+}
+#content .ul1 li{
+    float: right;
+    margin:8px 15px 8px 0 ;
+}
+
+#content ul li *{
+    border: none;
+}
+#content ul li button{
+    font-size: 12px;
+    background-color:#eeeeee;
+}
+#content ul li select{
+    font-size: 12px;
+    width: 50px;
+    background-color:#eeeeee;
+}
+
+.bg_green{
+    background-color: #75a749;
+    color: #ffffff;
+}
+
+#list{
+    width: 1077px;
+    margin: 0 auto;
+
+}
+#list li{
+    margin: 30px 0;
+    height: 180px;
+    border-bottom: 1px solid  #e0e0e0;
+    overflow: hidden;
+    padding-bottom:20px;
+}
+
+#list .house{
+    width: 253px;
+    height: 180px;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    margin-right: 20px;
+}
+
+#list .discription{
+    float: left;
+    margin-left: 24px;
+}
+
+#list .discription .span1{
+    font-size: 18px;
+    height: 26pc;
+    line-height: 26px;
+}
+.tag{
+    margin: 10px auto;
+    width: 450px;
+}
+.tag a{
+    width: 28px;
+    height: 28px;
+    border:1px solid #cccccc ;
+}
+
+
+
+
+
+
+
+
+
+.icon{
+    vertical-align: -5px;
+    margin: 0 5px;
+}
+
+.p1{
+    margin: 10px 0;
+    font-size: 14px;
+}
+.span2{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.p2{
+    margin-top: 15px;
+}
+
+#list .span3{
+    width: 66px;
+    height: 22px;
+    border: 1px solid #ffa422;
+    padding: 4px 10px;
+}
+
+#list .span4{
+    width: 66px;
+    height: 22px;
+    border: 1px solid #75a749;
+    padding: 4px 10px;
+    margin-left: 10px;
+}
+
+.price {
+    float: right;
+}
+/*.price p{
+
+}*/
+.price .span_price{
+    font-size: 24px;
+    color: #ee7a3f;
+}
+.price .month{
+    color: #ee7a3f;
+}
+.date{
+    float: right;
+}
+
+
+

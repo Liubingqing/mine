@@ -1,0 +1,397 @@
+
+#header{
+    width: 100%;
+    background-color: #70ad46;
+    height: 56px;
+
+}
+
+#header_nav{
+    height: 56px;
+}
+#header img{
+    float: left;
+    padding-top: 10px;
+}
+#search_blank{
+    display: inline-block;
+    float: left;
+    width: 792px;
+    height: 40px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    position: relative;
+    margin: 8px;
+    margin-left: 90px;
+}
+#triangle1{
+    border-left:10px solid rgba(0,0,0,0);
+    border-bottom:10px solid #ffffff;
+    border-right:10px solid rgba(0,0,0,0);
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+#triangle2{
+    border-top:5px solid #999999;
+    border-left:5px solid rgba(0,0,0,0);
+    border-right:5px solid rgba(0,0,0,0);
+    position: absolute;
+    top: 20px;
+    left: 65px;
+}
+
+#select{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    left: 24px;
+    top:8px;
+
+}
+
+#search_blank input{
+    width: 588px;
+    height: 95%;
+    border: none;
+    position: absolute;
+    left: 80px;
+    font-size: 14px;
+    font-color:#d0d0d0;
+}
+#search_btn{
+    height: 100%;
+    width: 124px;
+    border: none;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    color: white;
+    font-size: 18px;
+    padding-left: 36px;
+    position: absolute;
+    left:672px;
+    background-color: #5b8239;
+    background-image: url("../search_icon.png");
+    background-repeat: no-repeat;
+    background-position:19px 14px;
+
+}
+
+#separate{
+    float: right;
+    margin-top: 18px;
+    color: #ffffff;
+}
+
+#header_nav a{
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+/*midddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddle*/
+#middle{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+#left_nav{
+    width:188px;
+    height:318px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    border-radius: 10px;
+    float: left;
+}
+
+#photo_box{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 20px 54px 10px;
+    background-color:#cccccc;
+}
+
+#photo_box .photo{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+#nicheng{
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.item{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height:40px;
+    font-size: 14px;
+    text-align: center;
+}
+
+#content{
+    width: 950px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    float: left;
+    margin: 20px 0 0 6px;
+}
+#content p{
+    font-size: 16px;
+    font-weight:bold;
+    margin: 20px 0 0 20px;
+}
+
+#content #ulBlank{
+    margin: 12px 0 0 20px;
+    width: 906px;
+    background-color: #eeeeee;
+    float: left;
+}
+
+#content #ulBlank  li{
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 30px;
+}
+
+#content #ulBlank select{
+    background-color: #eeeeee;
+    border: none;
+}
+
+#content ul li.li_selected{
+    background-color: #cccccc;
+}
+
+#content #list{
+    width: 886px;
+    margin: 0 0 0 20px;
+    overflow: hidden;
+}
+#content #list .Tab{
+    width: 55px;
+    height: 25px;
+    display: inline-block;
+    border: 1px solid #999999;
+    color: #999999;
+    padding: 0 5px;
+    line-height: 25px;
+    float: right;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+#myBoost {
+    background-color: #7cb358;
+    font-weight: bold;
+}
+#myBoost a{
+    color: #ffffff;
+}
+.page-box{
+   text-align: center;
+    margin: 0 auto;
+}
+.page-box .page-checked {
+
+    background-color: #ccc;
+    color: #b61d1d;
+}
+.page-box a{
+    display: inline-block;
+    border: 1px solid rgba(150,150,150,0.3);
+    height: 30px;
+    min-width: 30px;
+    margin: 0 10px;
+    line-height: 30px;
+
+}
+#content #list .span_editTab{
+    background: url('../edit_icon.png') no-repeat 42px 8px;
+}
+
+#content #list .span_deleteTab{
+    background: url('../delete_icon.png') no-repeat 42px 8px;
+}
+
+#content #list li{
+    margin-top: 20px;
+    border-bottom: 1px solid  #e0e0e0;
+    padding: 0 0;
+    overflow: hidden;
+}
+#content #list li .house{
+    float: left;
+}
+#list .house{
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+#list .discription{
+    float: left;
+    margin-left: 24px;
+}
+
+#list .discription .span1{
+    font-size: 18px;
+    height: 26pc;
+    line-height: 26px;
+}
+#list .tag{
+    margin: 10px auto;
+    width: 450px;
+}
+#list .tag a{
+    width: 28px;
+    height: 28px;
+    border:1px solid #cccccc ;
+}
+
+#list .icon{
+    vertical-align: -5px;
+    margin: 0 5px;
+}
+
+#list .p1{
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: left;
+}
+#list .span2{
+    font-size: 14px;
+}
+#list .p2{
+    margin-top: 15px;
+}
+
+#list .span3{
+    width: 66px;
+    height: 22px;
+    border: 1px solid #ffa422;
+    padding: 4px 10px;
+}
+
+#list .span4{
+    width: 66px;
+    height: 22px;
+    border: 1px solid #75a749;
+    padding: 4px 10px;
+    margin-left: 10px;
+}
+
+.price {
+    float: right;
+}
+.price p{
+    margin-top:80px ;
+}
+.price .span_price{
+    font-size: 24px;
+    color: #ee7a3f;
+}
+.price .month{
+    color: #ee7a3f;
+}
+.date{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*foottttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt*/
+
+#foot{
+    background-color: #242623;
+    height: 262px;
+    width: 100%;
+    min-width: 1150px;
+    position: relative;
+}
+.wrap{
+    width: 1150px;
+    margin: 0 auto;
+
+}
+#foot ul{
+    font-size: 10px;
+}
+#foot #ul1{
+    padding-top:20px;
+}
+
+#foot ul li{
+    float: left;
+    margin-top: 22px;
+    padding: 5px;
+
+}
+
+#line{
+    width: 948px;
+    height: 1px;
+    background-color:#444444;
+    margin-top: 46px;
+
+}
+
+#foot span{
+    width: 100%;
+    min-width: 1150px;
+    display: block;
+    padding-top: 22px;
+}
+
+#foot #div_img{
+    width: 160px;
+    position: absolute;
+    left:1200px;
+    top:40px;
+}
+
+#foot #div_img span{
+    padding-top: 5px;
+    text-align: center;
+}

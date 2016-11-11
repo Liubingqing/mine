@@ -1,0 +1,190 @@
+#header{
+    width: 100%;
+    min-width: 1150px;
+    height: 654px;
+    background-image: url("../login_bg.jpg");
+    min-width: 1200px;
+    position: relative;
+}
+#header_nav{
+    padding-top: 5px;
+    height: 90px;
+}
+#header_nav img{
+    float: left;
+    margin-top: 24px;
+}
+#vertical-line{
+    float: left;
+    display: inline-block;
+    width: 2px;
+    height:50px;
+    background-color:#bbbbbb;
+    margin:15px 0 0 18px;
+}
+#welcomeLog{
+    float: left;
+    display: inline-block;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+#login_area{
+    width: 510px;
+    height: 462px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    left: 50%;
+    margin-left:-255px ;
+    background-color: #ffffff;
+    padding: 20px 20px 40px 20px;
+}
+#login_area form{
+    width: 100%;
+}
+#login_area dl{
+    width: 100%;
+}
+#login_area dd{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#login_area dt{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#login_area .dt_span_box{
+    text-align: right;
+    display: inline-block;
+    width: 90px;
+}
+
+#login_area dt span.star{
+    color: #f3a687;
+}
+
+#login_area dt span{
+    font-size: 14px;
+}
+
+.input_textBlank{
+    height: 38px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+
+#input_userName{
+    width: 280px;
+    background: url("../login_logo.png") no-repeat 252px 10px;
+}
+
+#input_psw{
+    width: 280px;
+    background: url("../psw_logo.png") no-repeat 252px 10px;;
+}
+
+#input_checkCode{
+    float: left;
+    width: 118px;
+    margin-left:15px;
+}
+
+#checkCode_box{
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    margin-left: 10px;
+    background-color: #b0b0b0;
+    border: 1px solid #b0b0b0;
+}
+#dt_checkCode{
+    line-height: 40px;
+    height: 40px;
+}
+#checkCode_box{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.change{
+    display: inline-block;
+    font-size: 12px;
+    margin-left:5px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+#extra{
+    height: 40px;
+    margin-left: 157px;
+    margin-top: 240px;
+    line-height: 31px;
+}
+#isRead{
+   margin-right: 5px;
+}
+#extra*{
+    display: inline-block;
+}
+#extra span{
+    font-size: 12px;
+}
+#extra a{
+    color: #70ad46;
+}
+#login{
+    margin-left: 58px;
+    margin-right: 4px;
+    color: #70ad46;
+}
+
+#extra #div_line2{
+    display: inline-block;
+    height: 11px;
+    width: 2px;
+    background-color:#bbbbbb;
+    margin-right: 5px;
+}
+
+#ok{
+    display: inline-block;
+    width: 284px;
+    height: 40px;
+    border: none;
+    background-color:#70ad46;
+    margin-left: 157px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#span_logoBox{
+    display: block;
+    width: 300px;
+    height: 62px;
+    margin: 30px auto 20px;
+}
+#span_description{
+    display: block;
+    color: rgba(150,150,150,0.5);
+    border-bottom: 1px solid rgba(150,150,150,0.3);
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+#span_logoBox a{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+
+

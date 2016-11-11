@@ -1,0 +1,231 @@
+#header{
+    width: 100%;
+    min-width: 1150px;
+    height: 750px;
+    background-image: url("../login_bg.jpg");
+    min-width: 1200px;
+    position: relative;
+}
+#header_nav{
+    padding-top: 5px;
+    height: 90px;
+}
+#header_nav img{
+    float: left;
+    margin-top: 24px;
+}
+#vertical-line{
+    float: left;
+    display: inline-block;
+    width: 2px;
+    height:50px;
+    background-color:#bbbbbb;
+    margin:15px 0 0 18px;
+}
+#welcomeLog{
+    float: left;
+    display: inline-block;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+#login_area{
+    width: 510px;
+    height: 525px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    position: absolute;
+    left: 50%;
+    margin-left:-255px ;
+    background-color: #ffffff;
+    padding: 20px 20px 40px 20px;
+}
+#login_area form{
+    width: 100%;
+}
+#login_area dl{
+    width: 100%;
+}
+#login_area dd{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#login_area dt{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.wrap{
+    width: 1150px;
+    margin: 0 auto;
+}
+#login_area .dt_span_box{
+    text-align: right;
+    display: inline-block;
+    width: 90px;
+}
+
+#login_area dt span.star{
+    color: #f3a687;
+}
+
+
+#logBox{
+    width: 296px;
+    height: 178px;
+    border: 1px solid rgba(150,150,150,0.3);
+    border-radius: 5px;
+    position: absolute;
+    left: 200px;
+    top:50px;
+    background-color: #ffffff;
+    z-index: 1;
+    display: none;
+}
+#logBox #i_quit{
+    position: absolute;
+    right: 5px;
+    top:5px;
+    font-size: 20px;
+    color: #999999;
+}
+#logBox #span_icon{
+    position: absolute;
+    left: 40px;
+    top: 59px;
+    width: 25px;
+    height: 25px;
+    background-color: #7cb358;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+}
+#logBox #span_sentence{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+#a_login{
+    margin-left: 100px;
+    color: #7cb358;
+}
+
+
+
+.input_textBlank{
+    width: 267px;
+    height: 38px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#input_userName{
+    background: url("../login_logo.png")  no-repeat 245px 10px;
+}
+#input_psw,#input_isPsw{
+    background: url("../psw_logo.png")  no-repeat 245px 10px;
+}
+#input_email{
+    background: url("../email_logo.png")  no-repeat 243px 14px;
+
+}
+#input_phone{
+    background: url("../phonenum_logo.png")  no-repeat 245px 10px;
+
+}
+#input_checkCode{
+    float: left;
+    width: 118px;
+    margin-left:15px;
+}
+
+#checkCode_box{
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    margin-left: 10px;
+    background-color: #b0b0b0;
+    border: 1px solid #b0b0b0;
+}
+#dt_checkCode{
+    line-height: 40px;
+    height: 40px;
+}
+#checkCode_box{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.change{
+    display: inline-block;
+    font-size: 12px;
+    margin-left:5px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+#extra{
+    height: 40px;
+    line-height: 31px;
+    margin-left: 157px;
+    margin-top: 10px;
+}
+#isRead{
+    margin-right: 5px;
+}
+
+#extra span{
+    font-size: 12px;
+}
+#extra a{
+    color: #70ad46;
+}
+#login{
+    margin-left: 58px;
+    margin-right: 4px;
+    color: #70ad46;
+}
+
+#extra #div_line2{
+    display: inline-block;
+    height: 11px;
+    width: 2px;
+    background-color:#bbbbbb;
+    margin-right: 5px;
+}
+
+#ok{
+    display: inline-block;
+    width: 282px;
+    height: 40px;
+    border: none;
+    background-color:#70ad46;
+    margin-left: 157px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#span_logoBox{
+    display: block;
+    width: 300px;
+    height: 62px;
+    margin: 40px auto;
+}
+#span_logoBox a{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>编辑资料</title>
+    <link rel="stylesheet" type="text/css" href="css/edit.css" >
+    <link rel="stylesheet" type="text/css" href="css/common.css" >
+    <link rel="stylesheet" href="css/foot.css" type="text/css">
+</head>
+<body>
+<div id="header">
+    <div id="header_nav" class="wrap">
+        <img src="yijulogo.png" alt="易居网"/>
+        <div id="search_blank">
+            <span id="select" class="pointer">郑州</span>
+            <span id="triangle2"></span>
+            <input type="text"value="请输入小区名称"/>
+            <button id="search_btn" class="pointer">搜房源
+            </button>
+        </div>
+
+        <a href="###">注册</a>
+        <span id="separate">|</span>
+        <a href="###">登录</a>
+    </div>
+</div>
+
+<div id="middle" class="wrap">
+    <div id="left_nav">
+    <span id="photo_box">
+        <img src="photo.png" class="photo">
+
+    </span>
+    <span id="nicheng">
+    我是昵称
+    </span>
+
+    <span class="item">
+        我的收藏
+    </span>
+        <span class="item">
+        我是发布
+    </span>
+    <span class="item">
+        浏览历史
+    </span>
+    <span class="item">
+        编辑资料
+    </span>
+
+    </div>
+
+    <div id="content">
+        <div id="logBox" style="display: none">
+            <i id="i_quit">×</i>
+            <span id="span_icon">√</span>
+            <span id="span_sentence">密码修改成功</span>
+            <input type="button" value="确定" id="btn_yes">
+            <input type="button" value="取消" id="btn_cancel">
+        </div>
+
+        <p>编辑资料</p>
+        <ul>
+            <li class="li_selected pointer" id="uploadPhotoTab">上传头像</li>
+            <li class="pointer" id="changeNameTab">修改昵称</li>
+            <li class="pointer" id="changePswTab">修改密码</li>
+        </ul>
+
+        <!--更改头像-->
+        <div id="changePhoto">
+            <button id="input_parent">
+                选择照片
+                <input type="file" id="uploadPhoto" name="uploadPhoto" />
+            </button>
+
+        <span id="bigPhoto_box" >
+            <img src="bigPhoto.png" class="photo">
+        </span>
+
+            <button id="save" class="btn">
+                保存
+            </button>
+            <button class="btn" id="cancel">
+                取消
+            </button>
+        </div>
+        <!--更改昵称-->
+        <div id="changeName"  style="display: none">
+            <span class="span_nameBlank">设置昵称：<input type="text"> </span>
+            <input type="button" value="保存" class="inputButton_select"><input type="button" value="取消">
+        </div>
+        <!--更改密码-->
+        <div id="changePsw"  style="display: none">
+            <span class="span_nameBlank">当前密码：<input type="text"> </span>
+            <span class="span_nameBlank">新密码：&nbsp;&nbsp;&nbsp;<input type="text"> </span>
+            <span class="span_nameBlank">再次输入：<input type="text"> </span>
+
+            <input id="changePsw_save" type="button" value="保存" class="inputButton_select"><input id="changePsw_cancel" type="button" value="取消">
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div id="foot">
+    <div class="wrap">
+        <ul id="ul1" class="fl">
+            <li><a href="###">友情链接</a></li>
+            <li><a href="###">武汉租房</a></li>
+            <li><a href="###">厨房电器品牌</a></li>
+            <li><a href="###">房展会</a></li>
+            <li><a href="###">36搜车网</a></li>
+            <li><a href="###">无锡二手车</a></li>
+            <li><a href="###">合肥租房网</a></li>
+            <li><a href="###">房产论坛</a></li>
+            <li><a href="###">租房问答</a></li>
+            <li><a href="###">郑州租房</a></li>
+            <li><a href="###">郑州房价</a></li>
+            <li><a href="###">好租</a></li>
+            <li><a href="###">密封胶</a></li>
+        </ul>
+        <ul id="ul2" class="fl">
+            <li><a href="###">南山写字楼</a></li>
+            <li><a href="###">芜湖写字楼</a></li>
+            <li><a href="###">上海写字楼出租</a></li>
+            <li><a href="###">广州写字楼出租</a></li>
+            <li><a href="###">北京写字楼出租</a></li>
+            <li><a href="###">深圳写字楼出租</a></li>
+            <li><a href="###">合肥租房网</a></li>
+
+        </ul>
+        <div id="line" class="fl"/></div>
+
+    <span class="fl">北京易居房产经纪有限公司 | 网络经营许可证  京ICP备11024601号-12</span>
+    <span class="fl">Copy2010-2016 易居yiyu.com版权所有</span>
+    <div id="div_img">
+        <img src="twoDimension.png" alt="">
+        <span>微信扫一扫，马上租房</span>
+    </div>
+
+
+</div>
+
+
+
+</body>
+<script src="jquery-1.8.0.js"     type="text/javascript"></script>
+<script src="javascript/edit.js" type="text/javascript"></script>
+<script src="javascript/extra.js" type="text/javascript"></script>
+<script src="javascript/ajaxfileuoload.js" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,302 @@
+
+body{
+    font-family: '微软雅黑';
+}
+.wrap{
+    width: 1150px;
+    margin: 0 auto;
+
+}
+#header{
+    width: 100%;
+    background-color: #70ad46;
+    height: 56px;
+}
+#header_nav{
+    height: 56px;
+}
+#header img{
+    float: left;
+    padding-top: 10px;
+}
+#search_blank{
+    display: inline-block;
+    float: left;
+    width: 792px;
+    height: 40px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    position: relative;
+    margin: 8px;
+    margin-left: 90px;
+}
+#triangle1{
+    border-left:10px solid rgba(0,0,0,0);
+    border-bottom:10px solid #ffffff;
+    border-right:10px solid rgba(0,0,0,0);
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+#triangle2{
+    border-top:5px solid #999999;
+    border-left:5px solid rgba(0,0,0,0);
+    border-right:5px solid rgba(0,0,0,0);
+    position: absolute;
+    top: 20px;
+    left: 65px;
+}
+
+#select{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    left: 24px;
+    top:8px;
+
+}
+
+#search_blank input{
+    width: 588px;
+    height: 95%;
+    border: none;
+    position: absolute;
+    left: 80px;
+    font-size: 14px;
+    font-color:#d0d0d0;
+}
+#search_btn{
+    height: 100%;
+    width: 124px;
+    border: none;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    color: white;
+    font-size: 18px;
+    padding-left: 36px;
+    position: absolute;
+    left:672px;
+    background-color: #5b8239;
+    background-image: url("../search_icon.png");
+    background-repeat: no-repeat;
+    background-position:19px 14px;
+
+}
+
+#separate{
+    float: right;
+    margin-top: 18px;
+    color: #ffffff;
+}
+
+#header_nav a{
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+/*path   csssssssssssssssssssssssssssssssss*/
+
+.path_box{
+    height: 32px;
+    border: 1px solid #d5d5d5;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+#path{
+    line-height: 32px;
+    font-size: 14px;
+}
+/*content   csssssssssssssssssssssssssssssssss*/
+#content{
+   margin-top: 20px;
+    overflow: hidden;
+}
+
+#img_box{
+    width: 464px;
+    float: left;
+}
+
+#img_box ul{
+    height: 78px;
+    width: 464px;
+}
+
+#img_box ul li{
+
+    float:left;
+    padding: 0 10px 0 0;
+}
+
+#img_box ul li img{
+    width: 106px;
+    height: 78px;
+}
+
+#img_box ul li img.img_select{
+    width: 103px;
+    height: 76px;
+   border: 1px solid rgba(0,255,0,0.4);
+}
+
+#big_img{
+    width: 454px;
+    height: 320px;
+}
+#right_box{
+    width: 472px;
+    height: 415px;
+    margin-left: 38px;
+    float: left;
+}
+#right_box p{
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+}
+
+#right_box li span{
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 13px;
+}
+#right_box ul li span.normal{
+    margin: 10px 5px;
+}
+#right_box #zujin{
+    margin: 10px 5px 10px 30px;
+}
+.yellow{
+    color:#eb5f00;
+}
+#right_box li span.big{
+
+    font-size: 22px;
+}
+#right_box button {
+    width: 296px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30px;
+  /*  margin: 40px 0 10px 30px;*/
+    padding: 0 0 0 40px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #ffffff;
+    background: #75a749 url("../phone.png") no-repeat 19px 17px;
+}
+
+#right_box .span_icon{
+    margin: 0 10px 0 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+#right_box .span_icon i{
+    display: inline-block;
+    margin-top: 5px;
+}
+#right_box .span_icon img{
+    display: inline-block;
+}
+
+/*peizhi cssssssssssssssssssssssssss*/
+dl{
+    overflow: hidden;
+}
+
+dt{
+    width: 1150px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d5d5d5;
+    height: 49px;
+    line-height: 49px;
+    font-weight:bolder;
+    font-size:16px;
+}
+dd{
+    float: left;
+    margin: 5px;
+
+}
+#fangyuan dd img{
+    display: inline-block;
+    margin: 10px 5px 0 20px;
+}
+
+#ditu dd{
+    margin-top:20px ;
+}
+
+/*like cssssssssssssss*/
+
+#like dd{
+    width: 275px;
+    height: 286px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#like dd .span1{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#like dd .p1{
+    margin-bottom: 10px;
+}
+/*foot csssssssssssssssssssssssss*/
+
+#foot{
+    background-color: #242623;
+    height: 262px;
+    width: 100%;
+    min-width: 1150px;
+    position: relative;
+}
+
+#foot ul{
+    font-size: 10px;
+}
+#foot #ul1{
+    padding-top:20px;
+}
+
+#foot ul li{
+    float: left;
+    margin-top: 22px;
+    padding: 5px;
+
+}
+
+#line{
+    width: 948px;
+    height: 1px;
+    background-color:#444444;
+    margin-top: 46px;
+
+}
+
+#foot span{
+    width: 100%;
+    min-width: 1150px;
+    display: block;
+    padding-top: 22px;
+}
+
+#foot #div_img{
+    width: 160px;
+    position: absolute;
+    left:1200px;
+    top:40px;
+}
+
+#foot #div_img span{
+    padding-top: 5px;
+    text-align: center;
+}

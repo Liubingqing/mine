@@ -1,0 +1,336 @@
+
+#header{
+    width: 100%;
+    background-color: #70ad46;
+    height: 56px;
+
+}
+
+#header_nav{
+    height: 56px;
+}
+
+#header img{
+    float: left;
+    padding-top: 10px;
+}
+
+#search_blank{
+    display: inline-block;
+    float: left;
+    width: 792px;
+    height: 40px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    position: relative;
+    margin: 8px;
+    margin-left: 90px;
+}
+
+#triangle1{
+    border-left:10px solid rgba(0,0,0,0);
+    border-bottom:10px solid #ffffff;
+    border-right:10px solid rgba(0,0,0,0);
+    position: absolute;
+    top: -10px;
+    left: 40px;
+}
+
+
+#triangle2{
+    border-top:5px solid #999999;
+    border-left:5px solid rgba(0,0,0,0);
+    border-right:5px solid rgba(0,0,0,0);
+    position: absolute;
+    top: 20px;
+    left: 65px;
+}
+
+#select{
+    font-size: 16px;
+    color: black;
+    position: absolute;
+    left: 24px;
+    top:8px;
+
+}
+
+#search_blank input{
+    width: 588px;
+    height: 95%;
+    border: none;
+    position: absolute;
+    left: 80px;
+    font-size: 14px;
+    font-color:#d0d0d0;
+}
+
+#search_btn{
+    height: 100%;
+    width: 124px;
+    border: none;
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    color: white;
+    font-size: 18px;
+    padding-left: 36px;
+    position: absolute;
+    left:672px;
+    background-color: #5b8239;
+    background-image: url("../search_icon.png");
+    background-repeat: no-repeat;
+    background-position:19px 14px;
+
+}
+
+#separate{
+    float: right;
+    margin-top: 18px;
+    color: #ffffff;
+}
+
+#header_nav a{
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: #ffffff;
+}
+
+#logBox{
+    width: 296px;
+    height: 178px;
+    border: 1px solid rgba(150,150,150,0.3);
+    border-radius: 5px;
+    position: absolute;
+    left: 750px;
+    top:140px;
+    background-color: #ffffff;
+    display: none;
+}
+
+form{
+    position: relative;
+}
+
+#logBox #i_quit{
+    position: absolute;
+    right: 5px;
+    top:5px;
+    font-size: 20px;
+    color: #999999;
+}
+
+#logBox #span_icon{
+    position: absolute;
+    left: 53px;
+    top: 59px;
+    width: 25px;
+    height: 25px;
+    background-color: #7cb358;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+#logBox #span_sentence{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+#a_back{
+    margin-left: 90px;
+    color: #7cb358;
+}
+
+#a_boostMore{
+    margin-left: 20px;
+    color: #858382;
+}
+
+.caption{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.dt_form{
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.dd_form{
+    font-size:14px;
+    margin-top: 20px;
+}
+
+.textR i{
+    color: #ef8654;
+}
+
+span.textR{
+    display: inline-block;
+    width:92px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.dd_form input{
+    margin: 0 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color:#cccccc;
+}
+
+.dd_form .blank1{
+    width: 354px;
+    height: 33px;
+}
+
+.dd_form .houseType{
+    border: none;
+    width: 70px;
+    height: 30px;
+    position: relative;
+}
+
+.flow{
+    display: inline-block;
+    width: 123px;
+    height: 33px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color:#cccccc;
+}
+
+.dd_form .houseFloor{
+    border: none;
+    width: 70px;
+    height: 30px;
+    text-align: left;
+    position: relative;
+}
+.dd_form .orient{
+    width: 83px;
+    height: 33px;
+    border: 1px solid #cccccc;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: #cccccc;
+}
+.dd_form .fee{
+    width: 138px;
+    height: 33px;
+}
+
+.dd_form .method{
+    width: 138px;
+    height: 33px;
+}
+
+/*.dd_form .blank2{
+    width: 530px;
+    height: 33px;
+}*/
+.textMiddle{
+  vertical-align: 40px;
+}
+
+.dd_form .houseConfigure{
+    border: 1px solid #cccccc;
+    display: inline-block;
+    width: 108px;
+    height: 33px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 33px;
+
+}
+
+.dd_form .span_box{
+    display: inline-block;
+    margin-left: 10px;
+    width: 928px;
+}
+.dd_form .blank2,.houseFeature,.houseAddress{
+    width: 530px;
+    height: 33px;
+}
+.dd_form button{
+    height: 35px;
+    background-color:#75a749;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+.dd_form .submit{
+    margin-left: 125px;
+    width: 165px;
+}
+
+.notice{
+    margin: 10px 0 0 125px;
+}
+
+.dd_form .person{
+    width: 183px;
+    height: 33px;
+}
+.dd_form .personPhone{
+    width: 238px;
+    height: 33px;
+}
+
+#btn_boost{
+    display: inline-block;
+    height: 35px;
+    width: 332px;
+    margin-left: 50px;
+    background-color: #75a749;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.dd_form .span_box .select{
+    background: url("../bg.png") no-repeat 92px 18px;
+    border-color:#75a749;
+}
+
+input[type=radio]{
+    width:15px;
+    height:15px;
+}
+
+
+/*.pay_list_c1 {
+    cursor: pointer;
+    text-align: center;
+    background-image: url('../inputradio.png');
+    background-repeat: no-repeat;
+    background-position: -24px 0;
+}*/
+/*
+.radioclass {
+    opacity: 0;
+    cursor: pointer;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+}
+.on {
+    background-position: 0 0;
+}*/
